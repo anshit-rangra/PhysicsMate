@@ -1,0 +1,1303 @@
+[
+    {
+        "title": "Physical Quantities",
+        "theorem": "Physical quantities are properties of matter that can be measured.",
+        "definition": "Physical quantities can be classified into fundamental quantities (like length, mass, time) and derived quantities (like velocity, force). Understanding these classifications is essential for accurate measurements in physics.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Fundamental Units",
+        "theorem": "Fundamental units are the basic units of measurement that define physical quantities.",
+        "definition": "Fundamental units include the meter (m) for length, kilogram (kg) for mass, and second (s) for time. These units form the basis for all other measurements in physics.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Derived Units",
+        "theorem": "Derived units are formed by combining fundamental units.",
+        "definition": "Derived units are created from fundamental units through multiplication or division. Examples include velocity (m/s), acceleration (m/s²), and force (N = kg·m/s²).",
+        "formula": "N/A"
+    },
+    {
+        "title": "SI Units",
+        "theorem": "The International System of Units (SI) is the standard system of measurement used in science.",
+        "definition": "The SI system includes seven base units: meter (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), and candela (luminous intensity).",
+        "formula": "N/A"
+    },
+    {
+        "title": "Accuracy and Precision",
+        "theorem": "Accuracy refers to how close a measured value is to the true value, while precision refers to the consistency of repeated measurements.",
+        "definition": "In scientific measurements, accuracy and precision are crucial. Accurate measurements yield results close to the true value, while precise measurements yield consistent results across multiple trials.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Significant Figures",
+        "theorem": "Significant figures are the digits in a number that contribute to its precision.",
+        "definition": "Significant figures include all non-zero digits, zeros between significant digits, and trailing zeros in the decimal part. They are important for conveying the precision of measurements.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Dimensional Analysis",
+        "theorem": "Dimensional analysis is a method used to convert units and check the consistency of equations.",
+        "definition": "Dimensional analysis involves expressing physical quantities in terms of their fundamental dimensions (length, mass, time, etc.) to ensure that equations are dimensionally consistent.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Measurement of Length",
+        "theorem": "Length can be measured using various instruments, including rulers, calipers, and micrometers.",
+        "definition": "The measurement of length is fundamental in physics. Instruments like rulers provide direct measurements, while calipers and micrometers offer higher precision for small dimensions.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Measurement of Mass",
+        "theorem": "Mass is measured using balance scales, which compare an unknown mass to known masses.",
+        "definition": "Mass measurement is essential in physics. Balance scales provide accurate mass measurements by comparing the unknown mass to standard masses, ensuring precision in experiments.",
+        "formula": "N/A"
+    },
+    {
+        "title": "Measurement of Time",
+        "theorem": "Time is measured using clocks and stopwatches, which provide precise time intervals.",
+        "definition": "Time measurement is crucial in physics experiments. Clocks and stopwatches allow for accurate timing of events, enabling the calculation of rates and intervals.",
+        "formula": "N/A"
+    },
+    
+        {
+            "title": "Displacement",
+            "theorem": "Displacement is the shortest distance from the initial to the final position of an object.",
+            "definition": "Displacement is a vector quantity that refers to the change in position of an object. It has both magnitude and direction, making it different from distance, which is a scalar quantity.",
+            "formula": "Δx = x_f - x_i"
+        },
+        {
+            "title": "Velocity",
+            "theorem": "Velocity is the rate of change of displacement with respect to time.",
+            "definition": "Velocity is a vector quantity that indicates the speed of an object in a specific direction. It can be average or instantaneous, depending on the time interval considered.",
+            "formula": "v = Δx / Δt"
+        },
+        {
+            "title": "Acceleration",
+            "theorem": "Acceleration is the rate of change of velocity with respect to time.",
+            "definition": "Acceleration is a vector quantity that measures how quickly an object changes its velocity. It can be positive (speeding up) or negative (slowing down, also known as deceleration).",
+            "formula": "a = Δv / Δt"
+        },
+         {
+                "title": "Equations of Motion - First Equation",
+                "theorem": "The first equation of motion relates final velocity, initial velocity, acceleration, and time.",
+                "definition": "This equation states that the final velocity of an object is equal to its initial velocity plus the product of acceleration and time. It is used to calculate the velocity of an object after a certain time under constant acceleration.",
+                "formula": "v = u + at"
+            },
+            {
+                "title": "Equations of Motion - Second Equation",
+                "theorem": "The second equation of motion relates displacement, initial velocity, time, and acceleration.",
+                "definition": "This equation describes the displacement of an object as a function of its initial velocity, time, and acceleration. It is useful for determining how far an object travels during a given time interval.",
+                "formula": "s = ut + 0.5at²"
+            },
+            {
+                "title": "Equations of Motion - Third Equation",
+                "theorem": "The third equation of motion relates final velocity, initial velocity, acceleration, and displacement.",
+                "definition": "This equation connects the final velocity of an object to its initial velocity, acceleration, and the distance traveled. It is particularly useful when time is not known.",
+                "formula": "v² = u² + 2as"
+            },
+        {
+            "title": "Uniform Motion",
+            "theorem": "Uniform motion occurs when an object covers equal distances in equal intervals of time.",
+            "definition": "In uniform motion, the velocity of the object remains constant. This means there is no acceleration, and the motion can be described by a linear relationship between distance and time.",
+            "formula": "s = vt"
+        },
+        {
+            "title": "Non-Uniform Motion",
+            "theorem": "Non-uniform motion occurs when an object covers unequal distances in equal intervals of time.",
+            "definition": "In non-uniform motion, the velocity of the object changes over time, resulting in acceleration. This type of motion is more complex and requires the use of equations of motion for analysis.",
+            "formula": "N/A"
+        },
+        {
+            "title": "Graphical Representation of Motion",
+            "theorem": "Motion can be represented graphically using distance-time and velocity-time graphs.",
+            "definition": "Graphs are powerful tools for visualizing motion. A distance-time graph shows how distance changes over time, while a velocity-time graph shows how velocity changes, allowing for the analysis of acceleration.",
+            "formula": "N/A"
+        },
+        {
+            "title": "Relative Motion",
+            "theorem": "Relative motion is the calculation of the motion of an object with respect to another object.",
+            "definition": "In relative motion, the position and velocity of an object are described in relation to another object. This concept is essential in understanding how different observers perceive motion.",
+            "formula": "v_AB = v_A - v_B"
+        },
+            {
+                "title": "Vectors in Two Dimensions",
+                "theorem": "Vectors are quantities that have both magnitude and direction.",
+                "definition": "In two dimensions, vectors can be represented graphically using arrows and can be added or subtracted using the head-to-tail method or by using components. Understanding vectors is essential for analyzing motion in a plane.",
+                "formula": "N/A"
+            },
+            {
+                "title": "Projectile Motion - Range",
+                "theorem": "The range of a projectile is the horizontal distance it travels during its motion.",
+                "definition": "The range is determined by the initial velocity and the angle of projection. It represents the total horizontal distance covered by the projectile before it returns to the same vertical level.",
+                "formula": "R = (u² * sin(2θ)) / g"
+            },
+            {
+                "title": "Projectile Motion - Maximum Height",
+                "theorem": "The maximum height of a projectile is the highest vertical position it reaches during its motion.",
+                "definition": "The maximum height is influenced by the initial velocity and the angle of projection. It represents the peak point of the projectile's trajectory.",
+                "formula": "H = (u² * sin²(θ)) / (2g)"
+            },
+            {
+                "title": "Projectile Motion - Time of Flight",
+                "theorem": "The time of flight is the total time the projectile remains in the air.",
+                "definition": "The time of flight depends on the initial velocity and the angle of projection. It indicates how long the projectile is in motion before hitting the ground.",
+                "formula": "T = (2u * sin(θ)) / g"
+            },
+            {
+                "title": "Uniform Circular Motion - Centripetal Acceleration",
+                "theorem": "Centripetal acceleration is the acceleration directed towards the center of the circular path.",
+                "definition": "In uniform circular motion, the object experiences centripetal acceleration, which keeps it moving in a circular path. This acceleration is constant in magnitude but changes direction.",
+                "formula": "a_c = v² / r"
+            },
+            {
+                "title": "Uniform Circular Motion - Centripetal Force",
+                "theorem": "Centripetal force is the net force acting on an object moving in a circular path.",
+                "definition": "Centripetal force is required to keep an object in uniform circular motion. It acts towards the center of the circle and is responsible for changing the direction of the object's velocity.",
+                "formula": "F_c = (mv²) / r"
+            },
+            {
+                "title": "Relative Motion",
+                "theorem": "Relative motion is the calculation of the motion of an object with respect to another object.",
+                "definition": "In relative motion, the position and velocity of an object are described in relation to another object. This concept is essential for understanding how different observers perceive motion.",
+                "formula": "v_AB = v_A - v_B"
+            },
+                {
+                    "title": "Newton's First Law of Motion",
+                    "theorem": "An object at rest stays at rest, and an object in motion stays in motion unless acted upon by a net external force.",
+                    "definition": "This law, also known as the law of inertia, states that objects will not change their state of motion unless a force is applied. It emphasizes the concept of inertia, which is the resistance of an object to changes in its motion.",
+                    "formula": "N/A"
+                },
+                {
+                    "title": "Newton's Second Law of Motion",
+                    "theorem": "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.",
+                    "definition": "This law quantifies the relationship between force, mass, and acceleration. It is fundamental in understanding how forces affect the motion of objects and is often expressed in the form of the equation F = ma.",
+                    "formula": "F = ma"
+                },
+                {
+                    "title": "Newton's Third Law of Motion",
+                    "theorem": "For every action, there is an equal and opposite reaction.",
+                    "definition": "This law states that forces always occur in pairs. When one object exerts a force on another, the second object exerts a force of equal magnitude and opposite direction on the first object.",
+                    "formula": "F_{AB} = -F_{BA}"
+                },
+                {
+                    "title": "Friction",
+                    "theorem": "Friction is the force that opposes the relative motion of two surfaces in contact.",
+                    "definition": "Friction can be static or kinetic and depends on the nature of the surfaces and the normal force acting between them. It plays a crucial role in everyday motion and is essential for walking, driving, and many other activities.",
+                    "formula": "F_f = μN"
+                },
+                {
+                    "title": "Circular Motion",
+                    "theorem": "In circular motion, an object moving in a circular path experiences centripetal force directed towards the center of the circle.",
+                    "definition": "When an object moves in a circular path, it requires a net inward force to maintain its circular motion. This force is called centripetal force and is essential for understanding motion in a circular trajectory.",
+                    "formula": "F_c = (mv²) / r"
+                },
+                {
+                    "title": "Equilibrium",
+                    "theorem": "An object is in equilibrium when the net force acting on it is zero.",
+                    "definition": "In equilibrium, an object remains at rest or continues to move with constant velocity. This condition is essential for analyzing forces acting on objects in static or dynamic situations.",
+                    "formula": "ΣF = 0"
+                },
+             {
+                        "title": "Work",
+                        "theorem": "Work is done when a force causes displacement in the direction of the force.",
+                        "definition": "Work is a measure of energy transfer that occurs when an object is moved over a distance by an external force. It is calculated as the product of the force and the displacement in the direction of the force.",
+                        "formula": "W = Fd cos(θ)"
+                    },
+                    {
+                        "title": "Kinetic Energy",
+                        "theorem": "Kinetic energy is the energy possessed by an object due to its motion.",
+                        "definition": "Kinetic energy depends on the mass and velocity of an object. It represents the work done to accelerate the object from rest to its current velocity.",
+                        "formula": "KE = 0.5mv²"
+                    },
+                    {
+                        "title": "Potential Energy",
+                        "theorem": "Potential energy is the energy possessed by an object due to its position or configuration.",
+                        "definition": "Gravitational potential energy is the energy an object has due to its height above the ground. It is calculated based on the object's mass, height, and the acceleration due to gravity.",
+                        "formula": "PE = mgh"
+                    },
+                    {
+                        "title": "Conservation of Energy",
+                        "theorem": "The total energy in an isolated system remains constant; energy can neither be created nor destroyed, only transformed from one form to another.",
+                        "definition": "The principle of conservation of energy states that the total mechanical energy (kinetic + potential) in a closed system remains constant if only conservative forces are acting.",
+                        "formula": "KE_initial + PE_initial = KE_final + PE_final"
+                    },
+                    {
+                        "title": "Power",
+                        "theorem": "Power is the rate at which work is done or energy is transferred.",
+                        "definition": "Power quantifies how quickly work is performed or energy is converted. It is an important concept in understanding the efficiency of machines and processes.",
+                        "formula": "P = W/t"
+                    },
+                    {
+                        "title": "Work-Energy Theorem",
+                        "theorem": "The work done on an object is equal to the change in its kinetic energy.",
+                        "definition": "The work-energy theorem connects work and energy, stating that the net work done by forces acting on an object results in a change in its kinetic energy.",
+                        "formula": "W = ΔKE = KE_final - KE_initial"
+                    },
+                     {
+                            "title": "Center of Mass",
+                            "theorem": "The center of mass of a system of particles is the point where the total mass of the system can be considered to be concentrated.",
+                            "definition": "The center of mass is a crucial concept in mechanics, as it simplifies the analysis of motion for systems of particles. It is calculated as the weighted average of the positions of all particles in the system.",
+                            "formula": "R_cm = (Σm_ix_i) / (Σm_i)"
+                        },
+                        {
+                            "title": "Linear Momentum",
+                            "theorem": "The linear momentum of a system of particles is the product of the total mass and the velocity of the center of mass.",
+                            "definition": "Linear momentum is a vector quantity that represents the motion of an object. It is conserved in isolated systems, making it a fundamental principle in collision and interaction problems.",
+                            "formula": "p = mv"
+                        },
+                        {
+                            "title": "Newton's Second Law for Rotation",
+                            "theorem": "The angular acceleration of a rigid body is directly proportional to the net torque acting on it and inversely proportional to its moment of inertia.",
+                            "definition": "This law extends Newton's second law to rotational motion, relating torque, moment of inertia, and angular acceleration. It is essential for analyzing rotational dynamics.",
+                            "formula": "τ = Iα"
+                        },
+                        {
+                            "title": "Moment of Inertia",
+                            "theorem": "The moment of inertia of a body is a measure of its resistance to angular acceleration about a given axis.",
+                            "definition": "Moment of inertia depends on the mass distribution of the object relative to the axis of rotation. It plays a similar role in rotational motion as mass does in linear motion.",
+                            "formula": "I = Σm_ir_i²"
+                        },
+                        {
+                            "title": "Torque",
+                            "theorem": "Torque is the measure of the effectiveness of a force to produce rotational motion about an axis.",
+                            "definition": "Torque depends on the magnitude of the force, the distance from the axis of rotation, and the angle at which the force is applied. It is a vector quantity and is crucial for understanding rotational dynamics.",
+                            "formula": "τ = rF sin(θ)"
+                        },
+                        {
+                            "title": "Equilibrium of Rigid Bodies",
+                            "theorem": "A rigid body is in equilibrium when the net force and net torque acting on it are both zero.",
+                            "definition": "In equilibrium, a rigid body remains at rest or moves with constant velocity. This condition is essential for analyzing structures and mechanical systems.",
+                            "formula": "ΣF = 0 and Στ = 0"
+                        },
+                        {
+                            "title": "Angular Momentum",
+                            "theorem": "The angular momentum of a system of particles is the product of the moment of inertia and the angular velocity.",
+                            "definition": "Angular momentum is a measure of the rotational motion of an object. It is conserved in isolated systems, making it a fundamental principle in rotational dynamics.",
+                            "formula": "L = Iω"
+                        },
+                            {
+                                "title": "Universal Law of Gravitation",
+                                "theorem": "Every mass attracts every other mass with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+                                "definition": "The universal law of gravitation describes the gravitational force between two objects. It is a fundamental principle that explains how objects interact through gravity.",
+                                "formula": "F = G(m1 * m2) / r²"
+                            },
+                            {
+                                "title": "Gravitational Force",
+                                "theorem": "The gravitational force between two objects is always attractive and acts along the line joining their centers.",
+                                "definition": "Gravitational force is the force of attraction between two masses. It is responsible for keeping planets in orbit around stars and for the motion of celestial bodies.",
+                                "formula": "F = G(m1 * m2) / r²"
+                            },
+                            {
+                                "title": "Gravitational Potential Energy",
+                                "theorem": "The gravitational potential energy of an object is the work done against gravity to bring it to a height h from a reference point.",
+                                "definition": "Gravitational potential energy depends on the mass of the object, the height above a reference point, and the acceleration due to gravity. It represents the energy stored due to an object's position in a gravitational field.",
+                                "formula": "PE = mgh"
+                            },
+                            {
+                                "title": "Acceleration due to Gravity",
+                                "theorem": "The acceleration due to gravity is the acceleration experienced by an object in free fall near the surface of a planet.",
+                                "definition": "The acceleration due to gravity (g) varies with location and is approximately 9.81 m/s² on the surface of the Earth. It is a crucial factor in calculating the motion of falling objects.",
+                                "formula": "g = G(M / r²)"
+                            },
+                            {
+                                "title": "Gravitational Field",
+                                "theorem": "The gravitational field is a region of space around a mass where another mass experiences a force of attraction.",
+                                "definition": "The gravitational field (g) at a point in space is defined as the force experienced by a unit mass placed at that point. It provides a way to visualize the influence of gravity in a region.",
+                                "formula": "g = F/m"
+                            },
+                            {
+                                "title": "Orbital Motion",
+                                "theorem": "The motion of an object in orbit is governed by the balance between gravitational force and centripetal force.",
+                                "definition": "Objects in orbit experience a continuous free fall towards the central body, resulting in circular or elliptical paths. The gravitational force provides the necessary centripetal force for this motion.",
+                                "formula": "F_c = F_g"
+                            },
+                            {
+                                "title": "Kepler's Laws of Planetary Motion",
+                                "theorem": "Kepler's laws describe the motion of planets around the sun, including their elliptical orbits and the relationship between orbital period and distance.",
+                                "definition": "Kepler's laws provide a framework for understanding planetary motion. They include the law of orbits, the law of areas, and the law of periods, which describe how planets move in relation to the sun.",
+                                "formula": "T² ∝ r³"
+                            },
+                            {
+                                "title": "Stress",
+                                "theorem": "Stress is defined as the force applied per unit area of a material.",
+                                "definition": "Stress quantifies the internal forces within a material when subjected to external forces. It is a measure of how much force is distributed over a given area.",
+                                "formula": "σ = F/A"
+                            },
+                            {
+                                "title": "Strain",
+                                "theorem": "Strain is the measure of deformation representing the displacement between particles in a material.",
+                                "definition": "Strain is a dimensionless quantity that describes how much a material deforms under stress. It is the ratio of the change in length to the original length.",
+                                "formula": "ε = ΔL/L₀"
+                            },
+                            {
+                                "title": "Hooke's Law",
+                                "theorem": "Hooke's Law states that the stress applied to a material is directly proportional to the strain produced, within the elastic limit.",
+                                "definition": "This law describes the linear relationship between stress and strain in elastic materials. It is fundamental in understanding how materials deform under load.",
+                                "formula": "σ = Eε"
+                            },
+                            {
+                                "title": "Young's Modulus",
+                                "theorem": "Young's modulus is a measure of the stiffness of a solid material and is defined as the ratio of stress to strain.",
+                                "definition": "Young's modulus quantifies how much a material will stretch or compress under a given load. It is an important property in engineering and materials science.",
+                                "formula": "E = σ/ε"
+                            },
+                            {
+                                "title": "Bulk Modulus",
+                                "theorem": "Bulk modulus is a measure of a material's resistance to uniform compression.",
+                                "definition": "Bulk modulus quantifies how incompressible a material is. It is defined as the ratio of the change in pressure to the fractional change in volume.",
+                                "formula": "K = -ΔP/(ΔV/V₀)"
+                            },
+                            {
+                                "title": "Shear Modulus",
+                                "theorem": "Shear modulus is a measure of a material's response to shear stress and is defined as the ratio of shear stress to shear strain.",
+                                "definition": "Shear modulus describes how a material deforms when subjected to shear forces. It is important in understanding the behavior of materials under torsion.",
+                                "formula": "G = τ/γ"
+                            },
+                            {
+                                "title": "Elastic Limit",
+                                "theorem": "The elastic limit is the maximum stress that a material can withstand without permanent deformation.",
+                                "definition": "Beyond the elastic limit, a material will not return to its original shape after the removal of the applied stress. Understanding the elastic limit is crucial for material selection in engineering applications.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Pressure in Fluids",
+                                "theorem": "Pressure in a fluid at a given depth is defined as the force exerted per unit area.",
+                                "definition": "Pressure in fluids increases with depth due to the weight of the fluid above. It is a scalar quantity and acts equally in all directions at a point within the fluid.",
+                                "formula": "P = F/A"
+                            },
+                            {
+                                "title": "Hydrostatic Pressure",
+                                "theorem": "The hydrostatic pressure at a depth h in a fluid is given by the product of the fluid's density, gravitational acceleration, and the depth.",
+                                "definition": "Hydrostatic pressure is the pressure exerted by a fluid at rest due to the weight of the fluid above it. It is crucial for understanding buoyancy and fluid statics.",
+                                "formula": "P = ρgh"
+                            },
+                            {
+                                "title": "Pascal's Law",
+                                "theorem": "Pascal's law states that a change in pressure applied to an enclosed fluid is transmitted undiminished to all parts of the fluid.",
+                                "definition": "This principle is the basis for hydraulic systems, where a small force applied to a small area can create a larger force over a larger area.",
+                                "formula": "P₁ = P₂"
+                            },
+                            {
+                                "title": "Archimedes' Principle",
+                                "theorem": "An object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object.",
+                                "definition": "Archimedes' principle explains why objects float or sink in fluids. It is fundamental in understanding buoyancy and the behavior of objects in fluids.",
+                                "formula": "F_b = ρ_fluid * V_displaced * g"
+                            },
+                            {
+                                "title": "Viscosity",
+                                "theorem": "Viscosity is a measure of a fluid's resistance to flow and deformation.",
+                                "definition": "Viscosity quantifies how thick or thin a fluid is. It affects how fluids flow and is important in various applications, including lubrication and fluid transport.",
+                                "formula": "η = F/A * (L/x)"
+                            },
+                            {
+                                "title": "Bernoulli's Principle",
+                                "theorem": "In a flowing fluid, an increase in velocity occurs simultaneously with a decrease in pressure or potential energy.",
+                                "definition": "Bernoulli's principle describes the behavior of fluid flow and is used to explain various phenomena, such as lift in airplane wings and the operation of venturi meters.",
+                                "formula": "P + 0.5ρv² + ρgh = constant"
+                            },
+                            {
+                                "title": "Continuity Equation",
+                                "theorem": "The continuity equation states that the mass flow rate of a fluid must remain constant from one cross-section of a pipe to another.",
+                                "definition": "This principle is based on the conservation of mass and is essential for analyzing fluid flow in pipes and channels.",
+                                "formula": "A₁v₁ = A₂v₂"
+                            },
+                            {
+                                "title": "Temperature",
+                                "theorem": "Temperature is a measure of the average kinetic energy of the particles in a substance.",
+                                "definition": "Temperature is a scalar quantity that indicates the thermal state of a system. It determines the direction of heat transfer between two bodies.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Heat",
+                                "theorem": "Heat is the energy transferred between two systems due to a temperature difference.",
+                                "definition": "Heat is a form of energy that flows from a hotter object to a cooler one. It is measured in joules (J) and is a key concept in thermodynamics.",
+                                "formula": "Q = mcΔT"
+                            },
+                            {
+                                "title": "Specific Heat Capacity",
+                                "theorem": "Specific heat capacity is the amount of heat required to raise the temperature of a unit mass of a substance by one degree Celsius.",
+                                "definition": "Specific heat capacity is a material property that varies from substance to substance. It is crucial for understanding how different materials respond to heat.",
+                                "formula": "c = Q/(mΔT)"
+                            },
+                            {
+                                "title": "Latent Heat",
+                                "theorem": "Latent heat is the amount of heat required to change the state of a substance without changing its temperature.",
+                                "definition": "Latent heat is involved in phase transitions, such as melting and boiling. It is essential for understanding processes like evaporation and condensation.",
+                                "formula": "Q = mL"
+                            },
+                            {
+                                "title": "Thermal Expansion",
+                                "theorem": "Most materials expand when heated and contract when cooled, a phenomenon known as thermal expansion.",
+                                "definition": "Thermal expansion is the increase in volume or length of a material due to an increase in temperature. It is important in engineering and construction.",
+                                "formula": "ΔL = αL₀ΔT"
+                            },
+                            {
+                                "title": "Ideal Gas Law",
+                                "theorem": "The ideal gas law relates the pressure, volume, temperature, and number of moles of an ideal gas.",
+                                "definition": "The ideal gas law provides a good approximation for the behavior of real gases under many conditions. It is fundamental in thermodynamics and physical chemistry.",
+                                "formula": "PV = nRT"
+                            },
+                            {
+                                "title": "First Law of Thermodynamics",
+                                "theorem": "The first law of thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another.",
+                                "definition": "This law is a statement of the conservation of energy principle and applies to all thermodynamic processes. It relates heat, work, and internal energy.",
+                                "formula": "ΔU = Q - W"
+                            },
+                            {
+                                "title": "Zeroth Law of Thermodynamics",
+                                "theorem": "If two systems are in thermal equilibrium with a third system, they are in thermal equilibrium with each other.",
+                                "definition": "The Zeroth Law establishes the concept of temperature and thermal equilibrium, allowing for the definition of temperature scales.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "First Law of Thermodynamics",
+                                "theorem": "The first law of thermodynamics states that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system.",
+                                "definition": "This law is a statement of the conservation of energy principle and applies to all thermodynamic processes, relating heat, work, and internal energy.",
+                                "formula": "ΔU = Q - W"
+                            },
+                            {
+                                "title": "Second Law of Thermodynamics",
+                                "theorem": "The second law of thermodynamics states that the total entropy of an isolated system can never decrease over time.",
+                                "definition": "This law introduces the concept of entropy and indicates the direction of spontaneous processes. It implies that energy transformations are not 100% efficient.",
+                                "formula": "ΔS ≥ Q/T"
+                            },
+                            {
+                                "title": "Carnot Engine",
+                                "theorem": "A Carnot engine is an idealized heat engine that operates between two heat reservoirs and is the most efficient engine possible.",
+                                "definition": "The Carnot engine serves as a standard for the efficiency of real heat engines. Its efficiency depends on the temperatures of the hot and cold reservoirs.",
+                                "formula": "η = 1 - (T_c / T_h)"
+                            },
+                            {
+                                "title": "Heat Engines",
+                                "theorem": "Heat engines convert heat energy into mechanical work by operating between two thermal reservoirs.",
+                                "definition": "Heat engines operate on cycles and are characterized by their efficiency, which is the ratio of work output to heat input.",
+                                "formula": "η = W/Q_h"
+                            },
+                            {
+                                "title": "Refrigerators and Heat Pumps",
+                                "theorem": "Refrigerators and heat pumps transfer heat from a colder body to a warmer body using work input.",
+                                "definition": "These devices operate on the principle of the second law of thermodynamics and are characterized by their coefficient of performance (COP).",
+                                "formula": "COP = Q_c / W"
+                            },
+                            {
+                                "title": "Entropy",
+                                "theorem": "Entropy is a measure of the disorder or randomness of a system and is a central concept in the second law of thermodynamics.",
+                                "definition": "Entropy quantifies the amount of energy in a physical system that is not available to do work. It increases in irreversible processes and is constant in reversible processes.",
+                                "formula": "ΔS = Q_rev / T"
+                            },
+                            {
+                                "title": "Kinetic Theory of Gases",
+                                "theorem": "The kinetic theory of gases describes a gas as a large number of small particles (atoms or molecules) in constant, random motion.",
+                                "definition": "This theory explains the macroscopic properties of gases (pressure, temperature, volume) in terms of the microscopic behavior of gas molecules.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Pressure of a Gas",
+                                "theorem": "The pressure exerted by a gas is due to the collisions of gas molecules with the walls of its container.",
+                                "definition": "The pressure of a gas can be derived from the kinetic theory by considering the momentum change of gas molecules during collisions.",
+                                "formula": "P = (1/3) * (N/V) * (mv²)"
+                            },
+                            {
+                                "title": "Ideal Gas Equation",
+                                "theorem": "The ideal gas equation relates the pressure, volume, temperature, and number of moles of an ideal gas.",
+                                "definition": "This equation provides a good approximation for the behavior of real gases under many conditions and is fundamental in thermodynamics.",
+                                "formula": "PV = nRT"
+                            },
+                            {
+                                "title": "Average Kinetic Energy",
+                                "theorem": "The average kinetic energy of gas molecules is directly proportional to the absolute temperature of the gas.",
+                                "definition": "This relationship indicates that as the temperature of a gas increases, the average kinetic energy of its molecules also increases.",
+                                "formula": "KE_avg = (3/2)kT"
+                            },
+                            {
+                                "title": "Root Mean Square Speed",
+                                "theorem": "The root mean square speed of gas molecules is a measure of the average speed of the molecules in a gas.",
+                                "definition": "The root mean square speed provides insight into the motion of gas molecules and is related to temperature and molecular mass.",
+                                "formula": "v_rms = √(3RT/M)"
+                            },
+                            {
+                                "title": "Mean Free Path",
+                                "theorem": "The mean free path is the average distance a molecule travels between collisions with other molecules.",
+                                "definition": "The mean free path is an important concept in kinetic theory, influencing the transport properties of gases.",
+                                "formula": "λ = (RT) / (√2πd²P)"
+                            },
+                            {
+                                "title": "Distribution of Molecular Speeds",
+                                "theorem": "The distribution of molecular speeds in a gas follows the Maxwell-Boltzmann distribution.",
+                                "definition": "This distribution describes the probability of finding gas molecules at different speeds and is essential for understanding gas behavior.",
+                                "formula": "f(v) = (m / 2πkT)^(3/2) * 4πv² * e^(-mv²/2kT)"
+                            },
+                            {
+                                "title": "Simple Harmonic Motion (SHM)",
+                                "theorem": "Simple harmonic motion is a type of periodic motion where the restoring force is directly proportional to the displacement from the equilibrium position and acts in the opposite direction.",
+                                "definition": "SHM is characterized by its sinusoidal nature and is fundamental in understanding oscillatory systems. It can be described mathematically using sine and cosine functions.",
+                                "formula": "x(t) = A cos(ωt + φ)"
+                            },
+                            {
+                                "title": "Angular Frequency",
+                                "theorem": "Angular frequency is the rate of change of the phase of a sinusoidal waveform, representing how quickly the oscillation occurs.",
+                                "definition": "Angular frequency (ω) is related to the frequency (f) of the oscillation and is measured in radians per second. It is a key parameter in describing oscillatory motion.",
+                                "formula": "ω = 2πf"
+                            },
+                            {
+                                "title": "Period of Oscillation",
+                                "theorem": "The period of oscillation is the time taken to complete one full cycle of motion.",
+                                "definition": "The period (T) is inversely related to frequency and is a fundamental characteristic of oscillatory motion, indicating how long it takes for the system to return to its initial state.",
+                                "formula": "T = 1/f"
+                            },
+                            {
+                                "title": "Energy in SHM",
+                                "theorem": "The total mechanical energy in simple harmonic motion is conserved and is the sum of kinetic and potential energy.",
+                                "definition": "In SHM, energy oscillates between kinetic and potential forms, with the total energy remaining constant throughout the motion.",
+                                "formula": "E = KE + PE = (1/2)kA²"
+                            },
+                            {
+                                "title": "Restoring Force",
+                                "theorem": "The restoring force in simple harmonic motion is proportional to the displacement from the equilibrium position and acts in the opposite direction.",
+                                "definition": "The restoring force is what brings the oscillating object back to its equilibrium position, and it is a key factor in determining the characteristics of SHM.",
+                                "formula": "F = -kx"
+                            },
+                            {
+                                "title": "Damped Oscillations",
+                                "theorem": "Damped oscillations occur when the amplitude of oscillation decreases over time due to the presence of a resistive force.",
+                                "definition": "Damping is a phenomenon that reduces the energy of the oscillating system, leading to a gradual decrease in amplitude. It is important in real-world applications such as shock absorbers.",
+                                "formula": "x(t) = A e^(-bt/2m) cos(ω't + φ)"
+                            },
+                            {
+                                "title": "Forced Oscillations and Resonance",
+                                "theorem": "Forced oscillations occur when an external periodic force drives a system, and resonance occurs when the frequency of the external force matches the natural frequency of the system.",
+                                "definition": "Resonance can lead to large amplitude oscillations and is a critical concept in various applications, including musical instruments and engineering structures.",
+                                "formula": "F(t) = F₀ cos(ωt)"
+                            },
+                            {
+                                "title": "Wave Motion",
+                                "theorem": "Wave motion is the transfer of energy and information through a medium without the permanent displacement of the medium itself.",
+                                "definition": "Waves can be classified as mechanical (requiring a medium) or electromagnetic (not requiring a medium). They are characterized by their wavelength, frequency, amplitude, and speed.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Types of Waves",
+                                "theorem": "Waves can be classified into transverse and longitudinal waves based on the direction of particle displacement relative to the direction of wave propagation.",
+                                "definition": "In transverse waves, particles move perpendicular to the direction of wave travel (e.g., light waves), while in longitudinal waves, particles move parallel to the direction of wave travel (e.g., sound waves).",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Wave Speed",
+                                "theorem": "The speed of a wave is determined by the properties of the medium through which it travels.",
+                                "definition": "Wave speed is the distance traveled by a wave in a given amount of time. It is influenced by factors such as tension in a string or density of a medium.",
+                                "formula": "v = fλ"
+                            },
+                            {
+                                "title": "Frequency and Wavelength",
+                                "theorem": "The frequency of a wave is the number of oscillations per unit time, while the wavelength is the distance between successive crests or troughs.",
+                                "definition": "Frequency (f) and wavelength (λ) are inversely related to wave speed. They are fundamental characteristics of waves that determine their behavior.",
+                                "formula": "v = fλ"
+                            },
+                            {
+                                "title": "Superposition Principle",
+                                "theorem": "When two or more waves overlap, the resultant displacement at any point is the algebraic sum of the displacements of the individual waves.",
+                                "definition": "The superposition principle explains how waves can interfere with each other, leading to constructive or destructive interference patterns.",
+                                "formula": "y = y₁ + y₂"
+                            },
+                            {
+                                "title": "Standing Waves",
+                                "theorem": "Standing waves are formed by the interference of two waves traveling in opposite directions with the same frequency and amplitude.",
+                                "definition": "Standing waves appear to be stationary and are characterized by nodes (points of no displacement) and antinodes (points of maximum displacement). They are common in musical instruments.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Sound Waves",
+                                "theorem": "Sound waves are longitudinal waves that propagate through a medium due to the vibration of particles.",
+                                "definition": "Sound waves are characterized by their frequency, wavelength, and speed. They are essential for communication and are influenced by the properties of the medium.",
+                                "formula": "v = fλ"
+                            },
+                            {
+                                "title": "Doppler Effect",
+                                "theorem": "The Doppler effect is the change in frequency or wavelength of a wave in relation to an observer moving relative to the source of the wave.",
+                                "definition": "The Doppler effect explains how the perceived frequency of sound or light changes based on the relative motion of the source and observer, leading to phenomena such as the change in pitch of a passing siren.",
+                                "formula": "f' = f(v ± v_o) / (v ± v_s)"
+                            },
+                            {
+                                "title": "Electric Charge",
+                                "theorem": "Electric charge is a fundamental property of matter that causes it to experience a force when placed in an electromagnetic field.",
+                                "definition": "Electric charge exists in two types: positive and negative. Like charges repel each other, while opposite charges attract. Charge is quantized and is measured in coulombs (C).",
+                                "formula": "Q = n * e"
+                            },
+                            {
+                                "title": "Coulomb's Law",
+                                "theorem": "Coulomb's law states that the magnitude of the electrostatic force between two point charges is directly proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance between them.",
+                                "definition": "Coulomb's law describes the interaction between charged particles and is fundamental in electrostatics.",
+                                "formula": "F = k * (|q₁ * q₂|) / r²"
+                            },
+                            {
+                                "title": "Electric Field",
+                                "theorem": "The electric field is a vector field that represents the force experienced by a unit positive charge placed in the field.",
+                                "definition": "The electric field (E) is created by electric charges and can be visualized as lines of force emanating from positive charges and terminating at negative charges.",
+                                "formula": "E = F/q"
+                            },
+                            {
+                                "title": "Electric Field Due to a Point Charge",
+                                "theorem": "The electric field due to a point charge is directed away from the charge if it is positive and towards the charge if it is negative.",
+                                "definition": "The electric field created by a point charge decreases with the square of the distance from the charge, illustrating the inverse square law.",
+                                "formula": "E = k * |q| / r²"
+                            },
+                            {
+                                "title": "Electric Potential",
+                                "theorem": "Electric potential is the work done per unit charge in bringing a positive test charge from infinity to a point in the electric field.",
+                                "definition": "Electric potential (V) is a scalar quantity that indicates the potential energy per unit charge at a point in an electric field.",
+                                "formula": "V = W/q"
+                            },
+                            {
+                                "title": "Potential Due to a Point Charge",
+                                "theorem": "The electric potential due to a point charge is the work done in bringing a unit positive charge from infinity to that point.",
+                                "definition": "The potential due to a point charge is also inversely proportional to the distance from the charge, similar to the electric field.",
+                                "formula": "V = k * q / r"
+                            },
+                            {
+                                "title": "Gauss's Law",
+                                "theorem": "Gauss's law states that the electric flux through a closed surface is proportional to the charge enclosed within that surface.",
+                                "definition": "Gauss's law is a powerful tool for calculating electric fields, especially in cases with high symmetry, such as spherical or cylindrical charge distributions.",
+                                "formula": "Φ_E = Q_enc / ε₀"
+                            },
+                            {
+                                "title": "Electric Field Lines",
+                                "theorem": "Electric field lines are imaginary lines that represent the direction and strength of the electric field.",
+                                "definition": "The density of electric field lines indicates the strength of the field, and the direction of the lines shows the direction of the force on a positive test charge.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Electrostatic Potential",
+                                "theorem": "Electrostatic potential at a point is defined as the work done in bringing a unit positive charge from infinity to that point without any acceleration.",
+                                "definition": "Electrostatic potential (V) is a scalar quantity that represents the potential energy per unit charge at a point in an electric field.",
+                                "formula": "V = W/q"
+                            },
+                            {
+                                "title": "Potential Due to a Point Charge",
+                                "theorem": "The electric potential due to a point charge is the work done in bringing a unit positive charge from infinity to a point in the electric field of the charge.",
+                                "definition": "The potential due to a point charge decreases with distance from the charge and is positive for positive charges and negative for negative charges.",
+                                "formula": "V = k * q / r"
+                            },
+                            {
+                                "title": "Equipotential Surfaces",
+                                "theorem": "Equipotential surfaces are surfaces on which the electric potential is the same at every point.",
+                                "definition": "No work is done when moving a charge along an equipotential surface, and electric field lines are always perpendicular to equipotential surfaces.",
+                                "formula": "N/A"
+                            },
+                            {
+                                "title": "Capacitance",
+                                "theorem": "Capacitance is defined as the ability of a system to store electric charge per unit potential difference.",
+                                "definition": "Capacitance (C) is a measure of how much charge a capacitor can store for a given voltage and is measured in farads (F).",
+                                "formula": "C = Q/V"
+                            },
+                            {
+                                "title": "Capacitance of a Parallel Plate Capacitor",
+                                "theorem": "The capacitance of a parallel plate capacitor is directly proportional to the area of the plates and inversely proportional to the distance between them.",
+                                "definition": "The parallel plate capacitor is a common type of capacitor, and its capacitance can be calculated using the area of the plates and the separation distance.",
+                                "formula": "C = (ε₀A) / d"
+                            },
+                            {
+                                "title": "Energy Stored in a Capacitor",
+                                "theorem": "The energy (U) stored in a capacitor is the work done to charge it to a certain voltage.",
+                                "definition": "The energy stored in a capacitor can be calculated using the charge and voltage, and it represents the potential energy available for use in an electric circuit.",
+                                "formula": "U = (1/2) CV²"
+                            },
+                            {
+                                "title": "Dielectrics",
+                                "theorem": "A dielectric is an insulating material that, when placed in an electric field, reduces the electric field strength and increases the capacitance of a capacitor.",
+                                "definition": "Dielectrics are used in capacitors to increase their capacitance by reducing the electric field between the plates, allowing for more charge storage.",
+                                "formula": "C' = κC"
+                            },
+                            {
+                                "title": "Series Capacitors",
+                                "theorem": "The total capacitance of capacitors in series is less than the smallest individual capacitor.",
+                                "definition": "In a series configuration, the total capacitance can be calculated using the reciprocal of the sum of the reciprocals of the individual capacitances.",
+                                "formula": "1/C_total = 1/C₁ + 1/C₂"
+                            },
+                            {
+                                "title": "Parallel Capacitors",
+                                "theorem": "The total capacitance of capacitors in parallel is the sum of the individual capacitances.",
+                                "definition": "In a parallel configuration, the total capacitance increases, allowing for greater charge storage.",
+                                "formula": "C_total = C₁ + C₂"
+                            },
+                                {
+                                    "title": "Electric Current",
+                                    "theorem": "Electric current is the rate of flow of electric charge through a conductor.",
+                                    "definition": "Current (I) is measured in amperes (A) and represents the amount of charge (Q) passing through a cross-section of a conductor per unit time (t).",
+                                    "formula": "I = Q/t"
+                                },
+                                {
+                                    "title": "Ohm's Law",
+                                    "theorem": "Ohm's law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points.",
+                                    "definition": "Ohm's law is fundamental in understanding the relationship between voltage (V), current (I), and resistance (R) in electrical circuits.",
+                                    "formula": "V = IR"
+                                },
+                                {
+                                    "title": "Resistance",
+                                    "theorem": "Resistance is a measure of the opposition to the flow of electric current in a conductor.",
+                                    "definition": "Resistance (R) depends on the material, length, and cross-sectional area of the conductor and is measured in ohms (Ω).",
+                                    "formula": "R = ρ(L/A)"
+                                },
+                                {
+                                    "title": "Resistivity",
+                                    "theorem": "Resistivity is a property of a material that quantifies how strongly it resists the flow of electric current.",
+                                    "definition": "Resistivity (ρ) is a material-specific constant that depends on temperature and is used to calculate resistance in conductors.",
+                                    "formula": "ρ = R(A/L)"
+                                },
+                                {
+                                    "title": "Electric Power",
+                                    "theorem": "Electric power is the rate at which electrical energy is consumed or converted into another form of energy.",
+                                    "definition": "Power (P) in an electrical circuit can be calculated using current and voltage, and it is measured in watts (W).",
+                                    "formula": "P = IV"
+                                },
+                                {
+                                    "title": "Kirchhoff's Current Law (KCL)",
+                                    "theorem": "Kirchhoff's current law states that the total current entering a junction equals the total current leaving the junction.",
+                                    "definition": "KCL is based on the principle of conservation of charge and is essential for analyzing electrical circuits.",
+                                    "formula": "ΣI_in = ΣI_out"
+                                },
+                                {
+                                    "title": "Kirchhoff's Voltage Law (KVL)",
+                                    "theorem": "Kirchhoff's voltage law states that the sum of the potential differences around any closed loop in a circuit is zero.",
+                                    "definition": "KVL is based on the principle of conservation of energy and is used to analyze voltage in electrical circuits.",
+                                    "formula": "ΣV = 0"
+                                },
+                                {
+                                    "title": "Capacitance",
+                                    "theorem": "Capacitance is defined as the ability of a system to store electric charge per unit potential difference.",
+                                    "definition": "Capacitance (C) is a measure of how much charge a capacitor can store for a given voltage and is measured in farads (F).",
+                                    "formula": "C = Q/V"
+                                },
+                                {
+                                    "title": "Magnetic Field",
+                                    "theorem": "The magnetic field at a point is defined as the force experienced by a unit positive charge moving with a velocity of 1 m/s perpendicular to the magnetic field.",
+                                    "definition": "The magnetic field (B) is a vector field that describes the magnetic influence on moving charges, currents, and magnetic materials.",
+                                    "formula": "B = F/(qv sin(θ))"
+                                },
+                                {
+                                    "title": "Biot-Savart Law",
+                                    "theorem": "The Biot-Savart law states that the magnetic field produced at a point by a small segment of current-carrying wire is directly proportional to the current and the length of the segment and inversely proportional to the square of the distance from the segment.",
+                                    "definition": "This law is used to calculate the magnetic field generated by a current-carrying conductor.",
+                                    "formula": "dB = (μ₀/4π) * (I * dl × r̂) / r²"
+                                },
+                                {
+                                    "title": "Ampere's Law",
+                                    "theorem": "Ampere's law relates the integrated magnetic field around a closed loop to the electric current passing through the loop.",
+                                    "definition": "This law is useful for calculating the magnetic field in situations with high symmetry, such as long straight wires and solenoids.",
+                                    "formula": "∮B · dl = μ₀I_enc"
+                                },
+                                {
+                                    "title": "Force on a Moving Charge in a Magnetic Field",
+                                    "theorem": "A charged particle moving in a magnetic field experiences a force that is perpendicular to both the velocity of the particle and the magnetic field.",
+                                    "definition": "The force (F) on a moving charge (q) in a magnetic field (B) is given by the cross product of the velocity vector and the magnetic field vector.",
+                                    "formula": "F = q(v × B)"
+                                },
+                                {
+                                    "title": "Torque on a Current Loop",
+                                    "theorem": "A current-carrying loop in a magnetic field experiences a torque that tends to align the loop with the magnetic field.",
+                                    "definition": "The torque (τ) on a current loop is proportional to the current, the area of the loop, and the magnetic field strength.",
+                                    "formula": "τ = nIBA sin(θ)"
+                                },
+                                {
+                                    "title": "Magnetic Moment",
+                                    "theorem": "The magnetic moment of a current loop is a measure of the strength and direction of its magnetic field.",
+                                    "definition": "The magnetic moment (μ) is defined as the product of the current (I) and the area (A) of the loop.",
+                                    "formula": "μ = I * A"
+                                },
+                                {
+                                    "title": "Lorentz Force",
+                                    "theorem": "The Lorentz force is the force experienced by a charged particle moving in both electric and magnetic fields.",
+                                    "definition": "The Lorentz force combines the effects of electric and magnetic forces on a charged particle.",
+                                    "formula": "F = q(E + v × B)"
+                                },
+                                {
+                                    "title": "Cyclotron Motion",
+                                    "theorem": "A charged particle moving in a magnetic field experiences a centripetal force that causes it to move in a circular path.",
+                                    "definition": "The radius of the circular path and the frequency of the motion depend on the charge, velocity, and magnetic field strength.",
+                                    "formula": "r = mv/(qB)"
+                                },
+                                {
+                                    "title": "Magnetic Dipole Moment",
+                                    "theorem": "The magnetic dipole moment is a vector quantity that represents the strength and orientation of a magnetic source.",
+                                    "definition": "The magnetic dipole moment (μ) is defined for a current loop as the product of the current (I) flowing through the loop and the area (A) of the loop.",
+                                    "formula": "μ = I * A"
+                                },
+                                {
+                                    "title": "Magnetic Field Due to a Magnetic Dipole",
+                                    "theorem": "The magnetic field at a point due to a magnetic dipole decreases with the cube of the distance from the dipole.",
+                                    "definition": "The magnetic field (B) due to a magnetic dipole at a point in space can be calculated using the dipole moment and the distance from the dipole.",
+                                    "formula": "B = (μ₀/4π) * (2μ/r³) (for axial point)"
+                                },
+                                {
+                                    "title": "Earth's Magnetic Field",
+                                    "theorem": "The Earth's magnetic field can be represented as a magnetic dipole field, with a magnetic moment that affects compasses and other magnetic materials.",
+                                    "definition": "The Earth's magnetic field is characterized by its intensity and direction, which vary with location and time.",
+                                    "formula": "B_E = μ₀/4π * (2M/r³) (for dipole approximation)"
+                                },
+                                {
+                                    "title": "Magnetization",
+                                    "theorem": "Magnetization is the measure of the magnetic moment per unit volume of a material.",
+                                    "definition": "Magnetization (M) indicates how much a material will become magnetized in response to an external magnetic field.",
+                                    "formula": "M = μ/V"
+                                },
+                                {
+                                    "title": "Magnetic Susceptibility",
+                                    "theorem": "Magnetic susceptibility is a dimensionless quantity that indicates how easily a material can be magnetized in an external magnetic field.",
+                                    "definition": "Magnetic susceptibility (χ) relates the magnetization of a material to the applied magnetic field strength.",
+                                    "formula": "χ = M/H"
+                                },
+                                {
+                                    "title": "Types of Magnetic Materials",
+                                    "theorem": "Magnetic materials can be classified into diamagnetic, paramagnetic, and ferromagnetic based on their response to an external magnetic field.",
+                                    "definition": "Each type of magnetic material exhibits different behaviors in the presence of a magnetic field, influencing their applications.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Hysteresis Loop",
+                                    "theorem": "The hysteresis loop represents the relationship between the magnetization of a material and the applied magnetic field, showing the lag in magnetization.",
+                                    "definition": "The area within the hysteresis loop indicates energy loss due to magnetic domain realignment in ferromagnetic materials.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Magnetic Field Inside a Solenoid",
+                                    "theorem": "The magnetic field inside a long solenoid is uniform and is directly proportional to the current flowing through it and the number of turns per unit length.",
+                                    "definition": "A solenoid is a coil of wire that generates a magnetic field when an electric current passes through it.",
+                                    "formula": "B = μ₀nI"
+                                },
+                                {
+                                    "title": "Electromagnetic Induction",
+                                    "theorem": "Electromagnetic induction is the process by which a changing magnetic field induces an electromotive force (EMF) in a conductor.",
+                                    "definition": "This phenomenon is the basis for many electrical devices, including generators and transformers, and is described by Faraday's laws of induction.",
+                                    "formula": "EMF = -dΦ/dt"
+                                },
+                                {
+                                    "title": "Faraday's First Law of Induction",
+                                    "theorem": "Faraday's first law states that the induced EMF in a closed circuit is directly proportional to the rate of change of magnetic flux through the circuit.",
+                                    "definition": "This law quantifies the relationship between the change in magnetic flux and the induced EMF, forming the foundation of electromagnetic induction.",
+                                    "formula": "EMF = -N(dΦ/dt)"
+                                },
+                                {
+                                    "title": "Faraday's Second Law of Induction",
+                                    "theorem": "Faraday's second law states that the magnitude of the induced EMF is equal to the negative rate of change of magnetic flux through the circuit.",
+                                    "definition": "This law emphasizes the direction of the induced EMF, which opposes the change in magnetic flux according to Lenz's law.",
+                                    "formula": "EMF = -dΦ/dt"
+                                },
+                                {
+                                    "title": "Lenz's Law",
+                                    "theorem": "Lenz's law states that the direction of the induced current is such that it opposes the change in magnetic flux that produced it.",
+                                    "definition": "Lenz's law is a consequence of the conservation of energy and helps determine the direction of induced currents in circuits.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Self-Inductance",
+                                    "theorem": "Self-inductance is the property of a coil or circuit that allows it to induce an EMF in itself due to a change in current.",
+                                    "definition": "The self-inductance (L) of a coil is a measure of how effectively it can induce an EMF in response to changes in its own current.",
+                                    "formula": "EMF = -L(dI/dt)"
+                                },
+                                {
+                                    "title": "Mutual Inductance",
+                                    "theorem": "Mutual inductance is the property of one coil to induce an EMF in another coil due to a change in current in the first coil.",
+                                    "definition": "The mutual inductance (M) between two coils quantifies the induced EMF in one coil due to the changing current in the other coil.",
+                                    "formula": "EMF₂ = -M(dI₁/dt)"
+                                },
+                                {
+                                    "title": "Inductors in Circuits",
+                                    "theorem": "Inductors store energy in a magnetic field when current flows through them and oppose changes in current.",
+                                    "definition": "Inductors are passive components used in electrical circuits to manage current flow and filter signals.",
+                                    "formula": "U = (1/2)LI²"
+                                },
+                                {
+                                    "title": "AC Circuits with Inductors",
+                                    "theorem": "In an AC circuit, the inductive reactance opposes the flow of alternating current, affecting the phase relationship between voltage and current.",
+                                    "definition": "Inductive reactance (X_L) is the opposition to AC due to inductance and is frequency-dependent.",
+                                    "formula": "X_L = ωL"
+                                },
+                                {
+                                    "title": "Alternating Current (AC)",
+                                    "theorem": "Alternating current is an electric current that periodically reverses direction, unlike direct current (DC) which flows in one direction.",
+                                    "definition": "AC is characterized by its frequency (f), which is the number of cycles per second, and is measured in hertz (Hz).",
+                                    "formula": "I(t) = I₀ sin(ωt + φ)"
+                                },
+                                {
+                                    "title": "RMS Value of AC",
+                                    "theorem": "The root mean square (RMS) value of an AC current is the effective value that produces the same power in a resistor as a DC current.",
+                                    "definition": "The RMS value is used to calculate the equivalent DC value for AC circuits and is essential for power calculations.",
+                                    "formula": "I_rms = I₀ / √2"
+                                },
+                                {
+                                    "title": "Peak Value of AC",
+                                    "theorem": "The peak value of an AC current is the maximum value of the current during one cycle.",
+                                    "definition": "The peak value (I₀) is important for understanding the maximum current that can flow in an AC circuit.",
+                                    "formula": "I₀ = √2 * I_rms"
+                                },
+                                {
+                                    "title": "AC Voltage and Current Relationship",
+                                    "theorem": "In an AC circuit, the voltage and current can be out of phase, affecting the power consumed in the circuit.",
+                                    "definition": "The phase difference (φ) between voltage and current is crucial for understanding the behavior of AC circuits.",
+                                    "formula": "V(t) = V₀ sin(ωt + φ)"
+                                },
+                                {
+                                    "title": "Impedance in AC Circuits",
+                                    "theorem": "Impedance (Z) is the total opposition to the flow of alternating current in a circuit, combining resistance and reactance.",
+                                    "definition": "Impedance is a complex quantity that accounts for both resistive and reactive components in AC circuits.",
+                                    "formula": "Z = √(R² + X²)"
+                                },
+                                {
+                                    "title": "Reactance",
+                                    "theorem": "Reactance is the opposition to the flow of alternating current caused by inductors and capacitors.",
+                                    "definition": "There are two types of reactance: inductive reactance (X_L) and capacitive reactance (X_C), which affect the phase relationship in AC circuits.",
+                                    "formula": [
+                                        "X_L = ωL",
+                                        "X_C = 1/(ωC)"
+                                    ]
+                                },
+                                {
+                                    "title": "Power in AC Circuits",
+                                    "theorem": "The power consumed in an AC circuit is the product of the RMS voltage, RMS current, and the power factor.",
+                                    "definition": "The power factor (cos φ) indicates how effectively the current is being converted into useful work.",
+                                    "formula": "P = V_rms * I_rms * cos(φ)"
+                                },
+                                {
+                                    "title": "Resonance in AC Circuits",
+                                    "theorem": "Resonance occurs in an AC circuit when the inductive and capacitive reactances are equal, resulting in maximum current flow.",
+                                    "definition": "At resonance, the impedance is minimized, and the circuit can efficiently transfer energy.",
+                                    "formula": "ω₀ = 1/√(LC)"
+                                },
+                                {
+                                    "title": "Electromagnetic Waves",
+                                    "theorem": "Electromagnetic waves are waves that propagate through space and consist of oscillating electric and magnetic fields that are perpendicular to each other and to the direction of wave propagation.",
+                                    "definition": "Electromagnetic waves travel at the speed of light in a vacuum and include a wide range of phenomena such as radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.",
+                                    "formula": "c = fλ"
+                                },
+                                {
+                                    "title": "Speed of Electromagnetic Waves",
+                                    "theorem": "The speed of electromagnetic waves in a vacuum is constant and is equal to the speed of light.",
+                                    "definition": "The speed of light (c) is approximately /(3 \times 10^8/) m/s and is a fundamental constant in physics.",
+                                    "formula": "c = 1/√(ε₀μ₀)"
+                                },
+                                {
+                                    "title": "Maxwell's Equations",
+                                    "theorem": "Maxwell's equations describe how electric and magnetic fields interact and propagate as electromagnetic waves.",
+                                    "definition": "These four equations form the foundation of classical electromagnetism and explain the behavior of electric and magnetic fields in various situations.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Poynting Vector",
+                                    "theorem": "The Poynting vector represents the directional energy flux (the rate of energy transfer per unit area) of an electromagnetic field.",
+                                    "definition": "The Poynting vector (S) is a vector quantity that indicates the direction and magnitude of energy flow in an electromagnetic wave.",
+                                    "formula": "S = E × H"
+                                },
+                                {
+                                    "title": "Energy Density of Electromagnetic Waves",
+                                    "theorem": "The energy density of an electromagnetic wave is the energy stored per unit volume in the electric and magnetic fields.",
+                                    "definition": "The total energy density (u) is the sum of the energy densities of the electric field (u_E) and the magnetic field (u_B).",
+                                    "formula": "u = (1/2)ε₀E² + (1/2)(B²/μ₀)"
+                                },
+                                {
+                                    "title": "Electromagnetic Spectrum",
+                                    "theorem": "The electromagnetic spectrum is the range of all types of electromagnetic radiation, categorized by wavelength or frequency.",
+                                    "definition": "The spectrum includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays, each with distinct properties and applications.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Reflection and Refraction of Electromagnetic Waves",
+                                    "theorem": "Electromagnetic waves can be reflected and refracted when they encounter different media, following the laws of reflection and Snell's law.",
+                                    "definition": "The behavior of electromagnetic waves at the interface of different media is crucial for understanding optics and wave propagation.",
+                                    "formula": "n₁ sin(θ₁) = n₂ sin(θ₂)"
+                                },
+                                {
+                                    "title": "Polarization of Electromagnetic Waves",
+                                    "theorem": "Polarization refers to the orientation of the oscillations of the electric field vector in an electromagnetic wave.",
+                                    "definition": "Electromagnetic waves can be polarized in various ways, affecting their interaction with materials and their applications in technology.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Reflection of Light",
+                                    "theorem": "The law of reflection states that the angle of incidence is equal to the angle of reflection.",
+                                    "definition": "Reflection occurs when light bounces off a surface, and this principle is fundamental in understanding how mirrors work.",
+                                    "formula": "θ_i = θ_r"
+                                },
+                                {
+                                    "title": "Refraction of Light",
+                                    "theorem": "Refraction is the bending of light as it passes from one medium to another, caused by a change in its speed.",
+                                    "definition": "The change in direction of light at the interface between two media is described by Snell's law.",
+                                    "formula": "n₁ sin(θ₁) = n₂ sin(θ₂)"
+                                },
+                                {
+                                    "title": "Total Internal Reflection",
+                                    "theorem": "Total internal reflection occurs when light attempts to move from a denser medium to a less dense medium at an angle greater than the critical angle.",
+                                    "definition": "This phenomenon is the basis for optical fibers and occurs when the angle of incidence exceeds the critical angle.",
+                                    "formula": "sin(θ_c) = n₂/n₁"
+                                },
+                                {
+                                    "title": "Lenses",
+                                    "theorem": "Lenses are transparent optical devices that refract light to converge or diverge rays, forming images.",
+                                    "definition": "There are two main types of lenses: convex (converging) and concave (diverging), each with distinct focal properties.",
+                                    "formula": "1/f = 1/v - 1/u"
+                                },
+                                {
+                                    "title": "Lens Maker's Formula",
+                                    "theorem": "The lens maker's formula relates the focal length of a lens to the radii of curvature of its surfaces and the refractive index of the lens material.",
+                                    "definition": "This formula is essential for designing lenses with specific focal lengths.",
+                                    "formula": "1/f = (n - 1) (1/R₁ - 1/R₂)"
+                                },
+                                {
+                                    "title": "Mirrors",
+                                    "theorem": "Mirrors reflect light according to the law of reflection, forming images that can be real or virtual.",
+                                    "definition": "Concave and convex mirrors have different properties and applications in optical instruments.",
+                                    "formula": "1/f = 1/v + 1/u"
+                                },
+                                {
+                                    "title": "Magnification",
+                                    "theorem": "Magnification is the ratio of the height of the image to the height of the object, indicating how much larger or smaller the image is compared to the object.",
+                                    "definition": "Magnification can be positive or negative, depending on whether the image is upright or inverted.",
+                                    "formula": "M = h'/h = v/u"
+                                },
+                                {
+                                    "title": "Optical Instruments",
+                                    "theorem": "Optical instruments use lenses and mirrors to form images for various applications, including microscopes and telescopes.",
+                                    "definition": "These instruments enhance our ability to see and analyze objects that are too small or too far away.",
+                                    "formula": "N.A."
+                                },
+                                {
+                                    "title": "Wave Nature of Light",
+                                    "theorem": "Light exhibits wave-like behavior, which can be described by its wavelength, frequency, and speed.",
+                                    "definition": "The wave nature of light is fundamental to understanding phenomena such as interference and diffraction.",
+                                    "formula": "c = fλ"
+                                },
+                                {
+                                    "title": "Interference of Light",
+                                    "theorem": "Interference occurs when two or more coherent light waves overlap, resulting in a new wave pattern.",
+                                    "definition": "The resulting intensity pattern can be constructive (bright fringes) or destructive (dark fringes) depending on the phase difference.",
+                                    "formula": "I = I₁ + I₂ + 2√(I₁I₂) cos(Δφ)"
+                                },
+                                {
+                                    "title": "Young's Double Slit Experiment",
+                                    "theorem": "Young's double slit experiment demonstrates the wave nature of light through the formation of an interference pattern.",
+                                    "definition": "This experiment shows how light can produce alternating bright and dark fringes on a screen due to interference.",
+                                    "formula": "y = (mλD) / d"
+                                },
+                                {
+                                    "title": "Diffraction of Light",
+                                    "theorem": "Diffraction is the bending of light waves around obstacles and the spreading of waves when they pass through small openings.",
+                                    "definition": "The extent of diffraction depends on the wavelength of light and the size of the aperture or obstacle.",
+                                    "formula": "sin(θ) = λ/d"
+                                },
+                                {
+                                    "title": "Resolving Power",
+                                    "theorem": "Resolving power is the ability of an optical instrument to distinguish between two closely spaced objects.",
+                                    "definition": "Higher resolving power indicates better clarity and detail in the images produced by optical devices.",
+                                    "formula": "R = λ / (2θ)"
+                                },
+                                {
+                                    "title": "Polarization of Light",
+                                    "theorem": "Polarization is the process by which light waves are restricted to oscillate in a particular direction.",
+                                    "definition": "Polarized light has waves that vibrate in a single plane, which can be achieved through reflection, refraction, or using polarizers.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Malus's Law",
+                                    "theorem": "Malus's law states that when polarized light passes through a polarizer, the intensity of the transmitted light is proportional to the cosine square of the angle between the light's polarization direction and the axis of the polarizer.",
+                                    "definition": "This law quantifies the effect of polarization on light intensity.",
+                                    "formula": "I = I₀ cos²(θ)"
+                                },
+                                {
+                                    "title": "Fresnel's Equations",
+                                    "theorem": "Fresnel's equations describe the reflection and transmission of light when it encounters an interface between two different media.",
+                                    "definition": "These equations provide the relationship between the incident, reflected, and transmitted light intensities.",
+                                    "formula": "R = |(n₁ - n₂)/(n₁ + n₂)|²"
+                                },
+                                {
+                                    "title": "Wave-Particle Duality",
+                                    "theorem": "Wave-particle duality is the concept that all particles exhibit both wave and particle properties.",
+                                    "definition": "This principle is fundamental in quantum mechanics and applies to all matter, including electrons and photons.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Photoelectric Effect",
+                                    "theorem": "The photoelectric effect occurs when light of sufficient frequency strikes a material, causing the ejection of electrons.",
+                                    "definition": "This phenomenon demonstrates the particle nature of light, where photons transfer energy to electrons.",
+                                    "formula": "E = hf - φ"
+                                },
+                                {
+                                    "title": "Einstein's Photoelectric Equation",
+                                    "theorem": "Einstein's photoelectric equation relates the energy of the incident photons to the kinetic energy of the emitted electrons.",
+                                    "definition": "This equation quantifies the energy conservation in the photoelectric effect, showing that the excess energy is converted to kinetic energy.",
+                                    "formula": "K.E. = hf - φ"
+                                },
+                                {
+                                    "title": "De Broglie Hypothesis",
+                                    "theorem": "The de Broglie hypothesis states that every moving particle or object has an associated wave.",
+                                    "definition": "This concept introduces the idea of matter waves, where particles such as electrons exhibit wave-like behavior.",
+                                    "formula": "λ = h/p"
+                                },
+                                {
+                                    "title": "Heisenberg's Uncertainty Principle",
+                                    "theorem": "Heisenberg's uncertainty principle states that it is impossible to simultaneously know both the exact position and momentum of a particle.",
+                                    "definition": "This principle highlights the limitations of measurement in quantum mechanics and the inherent uncertainty in the behavior of particles.",
+                                    "formula": "Δx Δp ≥ ħ/2"
+                                },
+                                {
+                                    "title": "Wave Function",
+                                    "theorem": "The wave function is a mathematical description of the quantum state of a system, containing all the information about the system.",
+                                    "definition": "The square of the wave function's magnitude gives the probability density of finding a particle in a given state.",
+                                    "formula": "ψ(x, t)"
+                                },
+                                {
+                                    "title": "Quantum Mechanics",
+                                    "theorem": "Quantum mechanics is the branch of physics that deals with the behavior of matter and light on the atomic and subatomic scale.",
+                                    "definition": "It provides a framework for understanding phenomena that cannot be explained by classical physics, including wave-particle duality.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Compton Effect",
+                                    "theorem": "The Compton effect demonstrates the particle nature of light by showing that photons can collide with electrons, resulting in a change in wavelength.",
+                                    "definition": "This phenomenon provides evidence for the quantization of light and supports the concept of photons having momentum.",
+                                    "formula": "Δλ = (h/m_ec)(1 - cos θ)"
+                                },
+                                {
+                                    "title": "Structure of the Atom",
+                                    "theorem": "The atom consists of a nucleus containing protons and neutrons, surrounded by electrons in various energy levels.",
+                                    "definition": "The structure of the atom is fundamental to understanding chemical properties and reactions, as well as the behavior of matter.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Rutherford's Model of the Atom",
+                                    "theorem": "Rutherford's model proposed that atoms have a small, dense nucleus surrounded by orbiting electrons.",
+                                    "definition": "This model was based on the results of the gold foil experiment, which demonstrated that most of the atom is empty space.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Bohr's Model of the Atom",
+                                    "theorem": "Bohr's model introduced quantized energy levels for electrons in an atom, explaining the stability of atoms and the emission spectra.",
+                                    "definition": "In this model, electrons orbit the nucleus in specific energy levels without radiating energy.",
+                                    "formula": "E_n = - (kZ²)/(n²)"
+                                },
+                                {
+                                    "title": "Energy Levels and Spectra",
+                                    "theorem": "Electrons can transition between energy levels, emitting or absorbing photons corresponding to the energy difference.",
+                                    "definition": "The emission and absorption spectra of elements provide evidence for quantized energy levels in atoms.",
+                                    "formula": "ΔE = hf"
+                                },
+                                {
+                                    "title": "Quantum Mechanical Model of the Atom",
+                                    "theorem": "The quantum mechanical model describes electrons as wave functions rather than fixed orbits, incorporating the principles of quantum mechanics.",
+                                    "definition": "This model provides a more accurate representation of electron behavior and the distribution of electrons in an atom.",
+                                    "formula": "ψ(x, t)"
+                                },
+                                {
+                                    "title": "Heisenberg's Uncertainty Principle",
+                                    "theorem": "Heisenberg's uncertainty principle states that it is impossible to know both the exact position and momentum of an electron simultaneously.",
+                                    "definition": "This principle is fundamental to the quantum mechanical model and highlights the limitations of classical physics in describing atomic behavior.",
+                                    "formula": "Δx Δp ≥ ħ/2"
+                                },
+                                {
+                                    "title": "Atomic Number and Mass Number",
+                                    "theorem": "The atomic number (Z) is the number of protons in the nucleus, while the mass number (A) is the total number of protons and neutrons.",
+                                    "definition": "These numbers are essential for identifying elements and understanding isotopes.",
+                                    "formula": "A = Z + N"
+                                },
+                                {
+                                    "title": "Isotopes",
+                                    "theorem": "Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons.",
+                                    "definition": "Isotopes have similar chemical properties but different physical properties, such as mass and stability.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Nuclear Structure",
+                                    "theorem": "The nucleus of an atom is composed of protons and neutrons, collectively known as nucleons.",
+                                    "definition": "The structure of the nucleus is fundamental to understanding nuclear reactions, stability, and the forces that hold the nucleus together.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Atomic Number and Mass Number",
+                                    "theorem": "The atomic number (Z) is the number of protons in the nucleus, while the mass number (A) is the total number of protons and neutrons.",
+                                    "definition": "These numbers are essential for identifying elements and understanding isotopes.",
+                                    "formula": "A = Z + N"
+                                },
+                                {
+                                    "title": "Binding Energy",
+                                    "theorem": "The binding energy of a nucleus is the energy required to disassemble it into its constituent nucleons.",
+                                    "definition": "Binding energy is a measure of the stability of a nucleus; higher binding energy indicates a more stable nucleus.",
+                                    "formula": "E_b = Δm c²"
+                                },
+                                {
+                                    "title": "Nuclear Forces",
+                                    "theorem": "Nuclear forces are the strong interactions that hold protons and neutrons together in the nucleus.",
+                                    "definition": "These forces are short-range and much stronger than electromagnetic forces, overcoming the repulsion between protons.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Radioactivity",
+                                    "theorem": "Radioactivity is the spontaneous emission of particles or radiation from an unstable nucleus.",
+                                    "definition": "This process occurs in certain isotopes and can result in the transformation of one element into another.",
+                                    "formula": "N(t) = N₀ e^(-λt)"
+                                },
+                                {
+                                    "title": "Half-Life",
+                                    "theorem": "The half-life of a radioactive substance is the time required for half of the radioactive nuclei in a sample to decay.",
+                                    "definition": "Half-life is a key concept in understanding the stability and decay of radioactive isotopes.",
+                                    "formula": "t₁/₂ = ln(2)/λ"
+                                },
+                                {
+                                    "title": "Nuclear Fission",
+                                    "theorem": "Nuclear fission is the process by which a heavy nucleus splits into two or more lighter nuclei, releasing a significant amount of energy.",
+                                    "definition": "This process is utilized in nuclear reactors and atomic bombs, and it can be initiated by neutron bombardment.",
+                                    "formula": "E = Δm c²"
+                                },
+                                {
+                                    "title": "Nuclear Fusion",
+                                    "theorem": "Nuclear fusion is the process by which two light nuclei combine to form a heavier nucleus, releasing energy.",
+                                    "definition": "Fusion is the process that powers stars, including the sun, and has potential applications in energy generation.",
+                                    "formula": "E = Δm c²"
+                                },
+                                {
+                                    "title": "Semiconductors",
+                                    "theorem": "Semiconductors are materials with electrical conductivity between that of conductors and insulators, and their conductivity can be modified by doping.",
+                                    "definition": "Semiconductors are essential for modern electronics and are used in devices such as diodes, transistors, and integrated circuits.",
+                                    "formula": "N/A"
+                                },
+                                {
+                                    "title": "Intrinsic Semiconductors",
+                                    "theorem": "Intrinsic semiconductors are pure semiconductors without any significant dopant atoms present, exhibiting a specific level of conductivity.",
+                                    "definition": "The conductivity of intrinsic semiconductors increases with temperature due to the generation of electron-hole pairs.",
+                                    "formula": "σ = n e μ_n + p e μ_p"
+                                },
+                                {
+                                    "title": "Extrinsic Semiconductors",
+                                    "theorem": "Extrinsic semiconductors are doped with impurities to enhance their electrical conductivity.",
+                                    "definition": "Doping introduces additional charge carriers: n-type semiconductors have extra electrons, while p-type semiconductors have extra holes.",
+                                    "formula": "N_D > N_A (for n-type), N_A > N_D (for p-type)"
+                                },
+                                {
+                                    "title": "P-N Junction",
+                                    "theorem": "A P-N junction is formed when p-type and n-type semiconductors are joined together, creating a depletion region and allowing for diode behavior.",
+                                    "definition": "The P-N junction is the fundamental building block of many semiconductor devices, including diodes and transistors.",
+                                    "formula": "V_bi = (kT/q) ln(N_A N_D / n_i²)"
+                                },
+                                {
+                                    "title": "Diodes",
+                                    "theorem": "Diodes are semiconductor devices that allow current to flow in one direction only, functioning as rectifiers.",
+                                    "definition": "Diodes are used in various applications, including signal modulation, voltage regulation, and rectification.",
+                                    "formula": "I = I_s (e^(qV/kT) - 1)"
+                                },
+                                {
+                                    "title": "Transistors",
+                                    "theorem": "Transistors are semiconductor devices used to amplify or switch electronic signals and electrical power.",
+                                    "definition": "Transistors can be configured as either NPN or PNP types and are fundamental components in modern electronic circuits.",
+                                    "formula": "I_C = β I_B"
+                                },
+                                {
+                                    "title": "Zener Diodes",
+                                    "theorem": "Zener diodes are designed to allow current to flow in the reverse direction when a specific reverse voltage (Zener voltage) is reached.",
+                                    "definition": "Zener diodes are commonly used for voltage regulation in electronic circuits.",
+                                    "formula": "V_Z = V_R + I_R R"
+                                },
+                                {
+                                    "title": "Photodiodes",
+                                    "theorem": "Photodiodes are semiconductor devices that convert light into electrical current, operating on the principle of the photoelectric effect.",
+                                    "definition": "Photodiodes are used in applications such as light detection, optical communication, and solar cells.",
+                                    "formula": "I = I_0 (1 - e^(-qV/kT))"
+                                }
+                            
+]
